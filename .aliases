@@ -20,7 +20,7 @@ alias gs="git status -s"
 alias ga="git add ."
 alias gb="git branch -va"
 alias gc="git commit -m"
-alias gd="git !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat""
+alias gd="!"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat""
 alias go="git "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f""
 alias gl="git log --pretty=oneline -n 20 --graph --abbrev-commit"
 
