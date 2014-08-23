@@ -7,22 +7,30 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
+alias b="brew"
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias h="history"
 alias j="jobs"
+alias n="npm"
+alias v="vagrant"
+alias t="tree -C"
 
 #git
 alias g="git"
 alias gs="git status -s"
 alias ga="git add ."
-alias gb="git branch -va"
+alias gb="git branch -v"
 alias gc="git commit -m"
-alias gd="!"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat""
-alias go="git "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f""
+alias gd="git diff "
+alias go="git checkout "
 alias gl="git log --pretty=oneline -n 20 --graph --abbrev-commit"
+alias gr="git remote -v"
+alias gf="git fetch --all"
+alias gpl="git pull"
+alias gps="git push"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -149,5 +157,3 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-# Faster npm for Europeans
-command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
