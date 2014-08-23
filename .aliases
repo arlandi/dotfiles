@@ -20,17 +20,19 @@ alias t="tree -C"
 
 #git
 alias g="git"
-alias gs="git status -s"
+alias gs="git status -bs"
 alias ga="git add ."
 alias gb="git branch -v"
 alias gc="git commit -m"
 alias gd="git diff "
 alias go="git checkout "
 alias gl="git log --pretty=oneline -n 20 --graph --abbrev-commit"
-alias gr="git remote -v"
-alias gf="git fetch --all"
-alias gpl="git pull"
-alias gps="git push"
+alias gr="git remote -v "
+alias gf="git fetch --all "
+alias gpl="git pull "
+alias gps="git push "
+alias gm="git merge "
+
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
