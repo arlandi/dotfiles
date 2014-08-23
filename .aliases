@@ -16,14 +16,13 @@ alias j="jobs"
 
 #git
 alias g="git"
-alias gs="git status "
-alias ga="git add "
-alias gb="git branch "
-alias gc="git commit"
-alias gd="git diff"
+alias gs="git status -s"
+alias ga="git add ."
+alias gb="git branch -va"
+alias gc="git commit -m"
+alias gd="git !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat""
 alias go="git checkout "
-alias gk="gitk --all&"
-alias gx="gitx --all"
+alias gl="git log --pretty=oneline -n 20 --graph --abbrev-commit"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
