@@ -20,6 +20,8 @@ install bash-completion
 install git
 install node
 install tree
+install chruby
+install ruby-build
 
 # Remove outdated versions from the cellar
 cleanup
