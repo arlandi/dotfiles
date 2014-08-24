@@ -21,7 +21,7 @@ install git
 install node
 install tree
 install chruby
-install ruby-build
+install ruby-install
 
 # Remove outdated versions from the cellar
 cleanup
