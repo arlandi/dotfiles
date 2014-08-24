@@ -33,6 +33,9 @@ alias gpl="git pull "
 alias gps="git push "
 alias gm="git merge "
 
+#python
+alias psimple="python -m simpleHTTPServer "
+
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
