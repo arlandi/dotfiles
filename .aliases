@@ -34,7 +34,7 @@ alias gps="git push "
 alias gm="git merge "
 
 #python
-alias psimple="python -m simpleHTTPServer "
+alias pserver="python -m SimpleHTTPServer "
 
 
 # Detect which `ls` flavor is in use
