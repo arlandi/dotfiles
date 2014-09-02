@@ -32,6 +32,7 @@ alias gf="git fetch --all "
 alias gpl="git pull "
 alias gps="git push "
 alias gm="git merge "
+alias gset="git branch --set-upstream-to=origin/"
 
 #python
 alias pserver="python -m SimpleHTTPServer "
