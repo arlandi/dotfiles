@@ -37,6 +37,8 @@ alias gset="git branch --set-upstream-to=origin/"
 #python
 alias pserver="python -m SimpleHTTPServer "
 
+# iOS Simulator
+alias iossimulator="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
