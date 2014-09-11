@@ -43,6 +43,9 @@ alias iossimulator="open /Applications/Xcode.app/Contents/Developer/Platforms/iP
 # Chruby
 alias loadchruby="source /usr/local/opt/chruby/share/chruby/chruby.sh && source /usr/local/opt/chruby/share/chruby/auto.sh"
 
+# PHP
+alias phpserver="php -S 0.0.0.0:8000"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
