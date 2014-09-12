@@ -17,6 +17,7 @@ alias j="jobs"
 alias n="npm"
 alias v="vagrant"
 alias t="tree -C"
+alias pc="pwd | pbcopy"
 
 #git
 alias g="git"
