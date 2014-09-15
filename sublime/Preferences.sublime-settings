@@ -1,0 +1,24 @@
+{
+	"file_exclude_patterns":
+	[
+		"sample_data.xml"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".sass-cache",
+		"comscore",
+		"fonts",
+		"node_modules",
+		"php-docs",
+		"build",
+		"reports",
+		"dist"
+	],
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"always_show_minimap_viewport": true
+}
