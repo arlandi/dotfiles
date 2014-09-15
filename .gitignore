@@ -12,3 +12,7 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+# Alfred
+alfred/Alfred.alfredpreferences/clipboard
+alfred/Alfred.alfredpreferences/preferences/local/
