@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>18A705D4-24FF-4DD3-BF73-1A42C7E9E674</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gh</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Github Dashboard</string>
+			<key>url</key>
+			<string>https://github.com/orgs/timecom/dashboard</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>265476D0-17EA-40C0-A72A-84C79D673DC4</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>timeissues</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Time Issues</string>
+			<key>url</key>
+			<string>https://github.com/timecom/time2014/issues</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>8B037EB7-9246-48B5-A184-CDCA1D768FCC</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>p</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Github Time2014 QA Branch Compare</string>
+			<key>url</key>
+			<string>https://github.com/timecom/time2014/compare/qa...{query}?expand=1</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>9FF4DC09-8C6C-49C4-B896-5D5A3E63CF08</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>jira time.com agile filter:anggi</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>j</string>
+			<key>url</key>
+			<string>https://tools.timeinc.net/jira/secure/RapidBoard.jspa?rapidView=141&amp;selectedIssue=TIM-944&amp;quickFilter=1067</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>F4412348-47E4-4580-94A4-B34C6DBAA117</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>t</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Time2014 Goto Branch</string>
+			<key>url</key>
+			<string>https://github.com/timecom/time2014/tree/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>F7461B1E-E5B1-4A61-8846-E46CA638BA1F</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>time</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Time Github Dashboard</string>
+			<key>url</key>
+			<string>https://github.com/timecom/time2014/</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>FEF9EB69-437B-4430-8122-FB51288EA7DF</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>pr</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Github Time2014 Compare QA Branch TIM</string>
+			<key>url</key>
+			<string>https://github.com/timecom/time2014/compare/qa...TIM-{query}?expand=1</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
