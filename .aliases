@@ -47,6 +47,7 @@ alias pserver="python -m SimpleHTTPServer "
 
 # iOS Simulator
 alias iossimulator="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
+alias isim='open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app'
 
 # Chruby
 alias loadchruby="source /usr/local/opt/chruby/share/chruby/chruby.sh && source /usr/local/opt/chruby/share/chruby/auto.sh"
